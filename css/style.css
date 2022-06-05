@@ -165,8 +165,7 @@ body {
    border-radius: 5px;  
    position: absolute;
    left: 0;
-/*    top: 50%; */
-   top: 13px;
+   top: 50%;
    transform: translate(0%, -50%);
 }
 
@@ -552,7 +551,8 @@ body {
 
    .header__burger.active span {
 /*       transform: scale(0); */
-      width: 0;
+/*       width: 0; */
+      opacity: 0;
    }
 
    .header__burger.active::before {
