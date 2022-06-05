@@ -150,6 +150,8 @@ body {
 
 .header__burger {
    position: relative;
+   top: 0;
+   left: 0;
    width: 35px;
    height: 25px;
    flex-shrink: 0;
@@ -550,9 +552,7 @@ body {
    }
 
    .header__burger.active span {
-/*       transform: scale(0); */
-/*       width: 0; */
-/*       opacity: 0; */
+      transform: scale(0);
    }
 
    .header__burger.active::before {
