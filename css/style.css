@@ -552,7 +552,7 @@ body {
    .header__burger.active span {
 /*       transform: scale(0); */
 /*       width: 0; */
-      opacity: 0;
+/*       opacity: 0; */
    }
 
    .header__burger.active::before {
