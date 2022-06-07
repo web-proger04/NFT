@@ -22,6 +22,11 @@
 
 html {
    scroll-behavior: smooth;
+   -moz-user-select: -moz-none;
+   -o-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
 }
 
 body {
@@ -563,31 +568,16 @@ body::-webkit-scrollbar-thumb {
 
    .header__burger.active span {
       transform: scale(0);
-      -moz-user-select: -moz-none;
-      -o-user-select: none;
-      -khtml-user-select: none;
-      -webkit-user-select: none;
-      user-select: none;
    }
 
    .header__burger.active::before {
       transform: rotate(45deg);
       top: 10px;
-      -moz-user-select: -moz-none;
-      -o-user-select: none;
-      -khtml-user-select: none;
-      -webkit-user-select: none;
-      user-select: none;
    }
 
    .header__burger.active::after {
       transform: rotate(-45deg);
       bottom: 10px;
-      -moz-user-select: -moz-none;
-      -o-user-select: none;
-      -khtml-user-select: none;
-      -webkit-user-select: none;
-      user-select: none;
    }
 
    .discover {
