@@ -22,11 +22,6 @@
 
 html {
    scroll-behavior: smooth;
-   -moz-user-select: -moz-none;
-   -o-user-select: none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
-   user-select: none;
 }
 
 body {
